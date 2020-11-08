@@ -7,8 +7,6 @@ Authors:
 import numpy as np
 import cv2
 
-from blyzer.common.video import Video
-
 def calculate_delta(frame_1: np.array, frame_2: np.array, threshold: int = 50):
     """This function calculates moving rate between given frames.
     Moving rate is the difference between frame_1 and frame_2
@@ -90,3 +88,8 @@ def analyse_moving(video:Video, coordinates:np.array, delta:int) -> np.array:
             moving_rate[i] = moving_rate_f
 
     return moving_rate
+
+if __name__ == '__main__':
+    #cap = cv2.VideoCapture('example.mp4')
+    print("hi")
+
