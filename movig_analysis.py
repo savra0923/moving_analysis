@@ -1,7 +1,6 @@
 """Module with video-based analysis tools
 
 Authors:
-    Aleksandr Sinitca
     Sapir Avrahami
 """
 
